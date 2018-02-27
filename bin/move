@@ -8,6 +8,6 @@ puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to go?"
 user_input = gets.chomp
 index = 0
-character = ""
+character = "X"
 input_to_index(user_input)
 move(board,index,character)
